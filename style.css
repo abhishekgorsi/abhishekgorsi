@@ -1,0 +1,95 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #2d3436;
+    --accent-color: #0055cc;
+    --light-grey: #f9f9f9;
+}
+
+body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    line-height: 1.7;
+    color: var(--text-color);
+    margin: 0;
+    background-color: var(--bg-color);
+}
+
+/* Navigation Bar */
+nav {
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    background: white;
+    padding: 10px 0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 1.5px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: var(--accent-color);
+}
+
+/* Containers */
+.container {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 { font-size: 2.8rem; margin-bottom: 10px; }
+
+/* Social Icons */
+.social-links a {
+    font-size: 1.4rem;
+    margin-right: 20px;
+    color: #8c9bab;
+    text-decoration: none;
+}
+
+.social-links a:hover { color: var(--accent-color); }
+
+/* Writing Section Styles */
+.item-block {
+    margin-bottom: 40px;
+}
+
+.item-title {
+    font-family: 'Lora', serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: block;
+    line-height: 1.4;
+}
+
+.item-meta {
+    font-size: 0.9rem;
+    color: #636e72;
+    margin-top: 5px;
+}
+
+.link-btn {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+footer {
+    text-align: center;
+    padding: 60px;
+    font-size: 0.8rem;
+    color: #b2bec3;
+}
